@@ -34,7 +34,7 @@ public class EventService {
 		Event entity = obj.orElseThrow(() -> new ResourceNotFoundException("Entity not found"));
 		return new EventDTO(entity);
 	}
-	
+
 	@Transactional
 	public EventDTO update(Long id, EventDTO dto) {
 		try {
@@ -42,7 +42,7 @@ public class EventService {
 			entity.setName(dto.getName());
 			entity.setDate(dto.getDate());
 			entity.setUrl(dto.getUrl());
-			entity.setCity(new City(dto.getCityId(), null));	
+			entity.setCity(new City(dto.getCityId(), null));
 			
 			entity = repository.save(entity);
 			return new EventDTO(entity);
