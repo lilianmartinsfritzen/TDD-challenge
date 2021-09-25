@@ -95,6 +95,8 @@
     <img src="https://user-images.githubusercontent.com/83084256/134749408-9f491e77-bbfe-4705-9c01-3f0eac00afcf.png" width="250" height="200"/>
     <img src="https://user-images.githubusercontent.com/83084256/134749487-b84bbcc9-d5a1-463e-b48d-838a1e88abbd.png" width="250" height="200"/>
     <img src="https://user-images.githubusercontent.com/83084256/134749436-9a30f801-8f01-42cd-8817-092d1e78d6db.png" width="250" height="200"/>
+  </div>
+  <div>
     <img src="https://user-images.githubusercontent.com/83084256/134749532-62cc9232-c150-4b7a-9e29-924ed1d6815a.png" width="250" height="200"/>
     <img src="https://user-images.githubusercontent.com/83084256/134749551-5001f1d5-d9f8-48e0-938c-dc69a9fe1c16.png" width="250" height="200"/>
   </div>
@@ -173,7 +175,7 @@ POST - Insert Event Id existente: http://localhost:8080/events
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 <h2 id="desenvolvedora">Desenvolvedora</h2> 
-  <img style="border-radius: 50%" border-radius="50%" src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" height="100" /> <br>
+  <img style="border-radius: 50%" border="50%" src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" height="100" /> <br>
 <a href="https://www.linkedin.com/in/lilian-martins-fritzen/">
   <img src="https://img.shields.io/static/v1?label=Linkedin&message=lilianmartinsfritzen&color=0A66C2&style=for-the-badge&logo=linkedin" />
 </a>
