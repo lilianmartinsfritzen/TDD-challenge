@@ -20,7 +20,9 @@
 <h2 id="sobre">Sobre TDD - Test Driven Development</h2> 
 <div align="justify">
   Consiste em um desenvolvimento guiado por testes, esse método de desenvolver software se apoia em um ciclo curto de repetições e associa-se ao conceito de verificação e validação. O código é escrito a fim de validar as necessidades descritas no teste automatizado juntamente com as do software, portanto, o teste é desenvolvido primeiro e posteriormente é criado um código que inicialmente possa ser validado, sendo refatorado para alcançar padrões aceitáveis.
-
+  <br>
+  <br>
+  
   **Benefícios em sua aplicabilidade:**
   - Foco principal nos requisitos.
   - Exige uma preocupação maior durante a escrita do código na intenção de atender as necessidades do teste, causando uma melhora no design do código.
@@ -32,7 +34,7 @@
   - Execute os testes automatizados.
   - Refatore o código, ter um código limpo e legível é importante.
 
-  Fonte: [Wikipedia-TDD](https://pt.wikipedia.org/wiki/Test-driven_development#2._Execute_todos_os_testes_e_veja_se_algum_deles_falha "Wikipedia Test-driven development")
+  Fonte: [Wikipedia-TDD](https://pt.wikipedia.org/wiki/Test-driven_development "Wikipedia Test-driven development")
 </div>
 
 <h2 id="desafio">Desafio</h2> 
