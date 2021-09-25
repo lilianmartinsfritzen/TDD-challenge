@@ -10,9 +10,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-
+<a href="https://github.com/lilianmartinsfritzen/TDD-challenge/blob/main/LICENSE">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" />
-
+</a>
 </p>
 
 # TDD - Test Driven Development Challenge
@@ -174,7 +174,7 @@ POST - Insert Event Id existente: http://localhost:8080/events
 
 <h2 id="licenca">📃 Licença</h2> 
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/lilianmartinsfritzen/TDD-challenge/blob/main/LICENSE) para mais detalhes.
 
 <h2 id="desenvolvedora">Desenvolvedora</h2> 
   <img style="border-radius: 50%" border="50%" src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" height="100" /> <br>
