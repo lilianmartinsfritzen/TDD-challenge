@@ -37,7 +37,7 @@
 
 <h2 id="desafio">Desafio</h2> 
 <div align="justify">
-  O professor Nelio Alves da [Escola DevSuperior](https://devsuperior.com.br/ "Site da Escola DevSuperior") propos como desafio para o final do capítulo 2 - Testes Automatizados do Bootcamp Spring e React a tarefa abaixo.<br>
+  O professor Nelio Alves da <a href="https://devsuperior.com.br">Escola DevSuperior</a> propos como desafio para o final do capítulo 2 - Testes Automatizados do Bootcamp Spring e React a tarefa abaixo.<br>
   <br>
   TAREFA: TDD Event-City
   <br>
