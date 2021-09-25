@@ -157,6 +157,6 @@ POST - Insert Event Id existente: http://localhost:8080/events
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 <h2 id="desenvolvedora">📃 Desenvolvedora</h2> 
-<img src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="150" border-radius="50%" />
+<img src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" border-radius="50%" />
 
 <img src="https://img.shields.io/static/v1?label=Linkedin&message=lilianmartinsfritzen&color=0A66C2&style=for-the-badge&logo=linkedin">
