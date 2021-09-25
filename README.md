@@ -69,7 +69,7 @@ Após analisar os testes resolvi seguir a seguinte ordem de implementação dos 
 ### 🚧 FindAll City
 Iniciei criando os pacotes repositories, em seguida o controllers e services com a classe City, como a busca não era paginada, não houve necessidade de passar argumentos ao findAll. Utilizei a variação Sort.by para dizer que a lista de cidades deveria retornar ordenadamente por nome. Fiz a checagem usando o Postman antes de passar o Teste. Não foi exigido pelo professor, porém checagem com o Postman é uma boa prática ensinada por ele.
 
-<img src="https://user-images.githubusercontent.com/83084256/134749128-008b38d0-2b90-4a22-a645-b16e85aa5cfc.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134752571-774a1518-c6a7-4ac6-876e-bddf19429b0b.png" width="250" height="200" />
 
 ### 🚧 Delete City Id existente, Id inexistente e violação de integridade DB
 Com os pacotes controllers e services já criados escrevi o código voltado ao Delete, implementando a lógica sobre o tratamento de exceção ensinada pelo professor no projeto DSCatalog. Criando um pacote de exceção no controller, adicionando uma classe de Erro Padrão e um Manipulador de Exceções utilizando a annotation @ExceptionHandler e tratando o NOT FOUND e BAD REQUEST. No Services também criei o pacote de exceção tratando a violação de integridade do DB no caso de exclusões de objetos relacionados.
