@@ -36,7 +36,7 @@
 </div>
 
 <h2 id="desafio">Desafio</h2> 
-<div style='text-align: justify'>
+<div align="justify">
   O professor Nelio Alves da [Escola DevSuperior](https://devsuperior.com.br/ "Site da Escola DevSuperior") propos como desafio para o final do capítulo 2 - Testes Automatizados do Bootcamp Spring e React a tarefa abaixo.<br>
   <br>
   TAREFA: TDD Event-City
@@ -61,7 +61,7 @@
 
 
 <h2 id="resolucao">Resolução</h2> 
-<div style="text-align:justify">
+<div align="justify">
   O professor Nélio trouxe as entidades e o DTO de City e Events já implementados, juntamente com os testes.
   Após analisar os testes resolvi seguir a seguinte ordem de implementação dos códigos:
   - FindAll City
@@ -101,7 +101,7 @@
 </div>
 
 <h3>👩‍💻 Insert - Porque a gente ❤️ um CRUD!</h3>
-<div style='text-align: justify'>
+<div align="justify">
 No desafio não existe teste para o Insert, nem necessidade de ser implementado para as demais funcionalidades, mas como só faltava o Create (Insert) para um CRUD completo resolvi escrever o código 🤭.
 </div>
 <br>
@@ -173,8 +173,7 @@ POST - Insert Event Id existente: http://localhost:8080/events
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 <h2 id="desenvolvedora">Desenvolvedora</h2> 
-  <img src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" height="100" style='border-radius: 50%' />
-<br>
+  <img style="border-radius: 50%" border-radius="50%" src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" height="100" /> <br>
 <a href="https://www.linkedin.com/in/lilian-martins-fritzen/">
   <img src="https://img.shields.io/static/v1?label=Linkedin&message=lilianmartinsfritzen&color=0A66C2&style=for-the-badge&logo=linkedin" />
 </a>
