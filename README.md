@@ -69,29 +69,29 @@ Após analisar os testes resolvi seguir a seguinte ordem de implementação dos 
 ### 🚧 FindAll City
 Iniciei criando os pacotes repositories, em seguida o controllers e services com a classe City, como a busca não era paginada, não houve necessidade de passar argumentos ao findAll. Utilizei a variação Sort.by para dizer que a lista de cidades deveria retornar ordenadamente por nome. Fiz a checagem usando o Postman antes de passar o Teste. Não foi exigido pelo professor, porém checagem com o Postman é uma boa prática ensinada por ele.
 
-<img src="https://user-images.githubusercontent.com/83084256/134749128-008b38d0-2b90-4a22-a645-b16e85aa5cfc.png" width="400" />
+<img src="https://user-images.githubusercontent.com/83084256/134749128-008b38d0-2b90-4a22-a645-b16e85aa5cfc.png" width="250" height="200" />
 
 ### 🚧 Delete City Id existente, Id inexistente e violação de integridade DB
 Com os pacotes controllers e services já criados escrevi o código voltado ao Delete, implementando a lógica sobre o tratamento de exceção ensinada pelo professor no projeto DSCatalog. Criando um pacote de exceção no controller, adicionando uma classe de Erro Padrão e um Manipulador de Exceções utilizando a annotation @ExceptionHandler e tratando o NOT FOUND e BAD REQUEST. No Services também criei o pacote de exceção tratando a violação de integridade do DB no caso de exclusões de objetos relacionados.
 
-<img src="https://user-images.githubusercontent.com/83084256/134749186-de793542-3c50-4466-89f8-a80f4d71e282.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749217-9b308716-7810-49e0-b6fc-17f1fd374933.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749358-d9443f9b-f5f4-4a83-85bb-b6b35efe7ad0.png" width="400" />
+<img src="https://user-images.githubusercontent.com/83084256/134749186-de793542-3c50-4466-89f8-a80f4d71e282.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749217-9b308716-7810-49e0-b6fc-17f1fd374933.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749358-d9443f9b-f5f4-4a83-85bb-b6b35efe7ad0.png" width="250" height="200" />
 
 ### 🚧 Update Event Id existente e Id inexistente
 No caso do Update, antes de incluí-lo e mesmo não havendo teste para essa funcionalidade, senti a necessidade de trazer uma lista dos eventos bem como buscá-lo pelo Id, de forma que eu conseguisse me certificar usando o Postman de que a atualização foi bem sucedida para então validar o teste.
 
-<img src="https://user-images.githubusercontent.com/83084256/134749408-9f491e77-bbfe-4705-9c01-3f0eac00afcf.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749487-b84bbcc9-d5a1-463e-b48d-838a1e88abbd.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749436-9a30f801-8f01-42cd-8817-092d1e78d6db.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749532-62cc9232-c150-4b7a-9e29-924ed1d6815a.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749551-5001f1d5-d9f8-48e0-938c-dc69a9fe1c16.png" width="400" />
+<img src="https://user-images.githubusercontent.com/83084256/134749408-9f491e77-bbfe-4705-9c01-3f0eac00afcf.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749487-b84bbcc9-d5a1-463e-b48d-838a1e88abbd.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749436-9a30f801-8f01-42cd-8817-092d1e78d6db.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749532-62cc9232-c150-4b7a-9e29-924ed1d6815a.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749551-5001f1d5-d9f8-48e0-938c-dc69a9fe1c16.png" width="250" height="200" />
 
 ### 👩‍💻 Insert - Porque a gente ❤️ um CRUD!
 No desafio não existe teste para essa funcionalidade, nem necessidade de ser implementado para as demais funcionalidades, mas como só faltava o Create (Insert) para um CRUD completo resolvi escrever o código 🤭.
 
-<img src="https://user-images.githubusercontent.com/83084256/134749606-d153cb93-5c67-4c26-b790-51f51ba39f62.png" width="400" />
-<img src="https://user-images.githubusercontent.com/83084256/134749640-1f0c6454-bb63-442f-8b2a-4393d8d2fef9.png" width="400" />
+<img src="https://user-images.githubusercontent.com/83084256/134749606-d153cb93-5c67-4c26-b790-51f51ba39f62.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/83084256/134749640-1f0c6454-bb63-442f-8b2a-4393d8d2fef9.png" width="250" height="200" />
 
 
 <h2 id="tecnologias">🚀 Tecnologias</h2> 
@@ -156,7 +156,9 @@ POST - Insert Event Id existente: http://localhost:8080/events
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
-<h2 id="desenvolvedora">📃 Desenvolvedora</h2> 
-<img src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="100" border-radius="50%" />
-
-<img src="https://img.shields.io/static/v1?label=Linkedin&message=lilianmartinsfritzen&color=0A66C2&style=for-the-badge&logo=linkedin">
+<h2 id="desenvolvedora">Desenvolvedora</h2> 
+<img src="https://user-images.githubusercontent.com/83084256/134750093-acf555ae-b1b0-4a4e-a22c-421bf98f15a0.png" width="150" border-radius="50%" />
+<br>
+<a href="https://www.linkedin.com/in/lilian-martins-fritzen/">
+    <img src="https://img.shields.io/static/v1?label=Linkedin&message=lilianmartinsfritzen&color=0A66C2&style=for-the-badge&logo=linkedin" />
+</a>
