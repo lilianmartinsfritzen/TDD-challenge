@@ -52,7 +52,7 @@ https://github.com/devsuperior/bds02
 - Teste de Integração EventController: Update deve retornar 404 Not Found na tentativa de atualizar um evento com Id inexistente.
 
 Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
-<img src="https://user-images.githubusercontent.com/83084256/134748894-84cfbf7e-d32b-4cce-b4c1-965c2ccc848f.png" />
+<img src="https://user-images.githubusercontent.com/83084256/134748894-84cfbf7e-d32b-4cce-b4c1-965c2ccc848f.png" width="450"/>
 
 
 <h2 id="resolucao">Resolução</h2> 
